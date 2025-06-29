@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function CartModel({cartItems, closeCart, removeFromCart}) {
+export default function CartModal({cartItems, closeCart, removeFromCart}) {
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="bg-white rounded-lg p-6 w-96 max-h-[80vh] overflow-y-auto">

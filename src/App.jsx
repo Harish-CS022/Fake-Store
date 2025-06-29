@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import ProductCard from "./Components/ProductCard";
-import CartModel from "./Components/CartModel";
+import CartModal from "./Components/CartModel";
 
 function App() {
   const [products, setProducts] = useState([]);
@@ -59,7 +59,7 @@ function App() {
         </div>
 
         {showCart && (
-      <CartModel
+      <CartModal
         cartItems={cart}
         closeCart={() => setShowCart(false)}
         removeFromCart={removeFromCart}
