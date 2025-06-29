@@ -10,4 +10,8 @@ What are the features I added in this project
 -  Add products to cart
 -  Increase or decrease item quantity
 -  Remove items from the cart
+<<<<<<< HEAD
 -  Simple and clean UI using Tailwind CSS
+=======
+-  Simple and clean UI using Tailwind CSS
+>>>>>>> e49383efac3c524634e84e507a449d60fd9ea75f
